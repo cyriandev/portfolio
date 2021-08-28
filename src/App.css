@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600;800;900&display=swap');
+
+body {
+  background-color: #1C1E21 !important;
+  color: #fff !important;
+font-family: 'Inconsolata', monospace !important;
+}
+a{
+  color: transparent;
+  text-decoration: none !important;
+}
+.intro {
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.project {
+  width: 100%;
+  background-color: #242526;
+  border-radius: 5px;
+  padding: 15px 40px;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.project h1 {
+  font-size: 28px;
+}
+
+.text-description {
+  color: rgba(235,235,245,.6);
+}
+
+ion-icon {
+  font-size: 20px;
+  color: rgba(235,235,245,.6);
+}
+
+@media (min-width: 768px) {
+  .projects{
+    min-height: 100vh;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
