@@ -38,6 +38,13 @@ ion-icon {
   color: rgba(235,235,245,.6);
 }
 
+.project-name{
+  color: #fff;
+}
+
+.project-name:hover{
+  color: #fff;
+}
 @media (min-width: 768px) {
   .projects{
     min-height: 100vh;

@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div className="intro d-flex align-items-center">
             <div>
-                <h1 style={{ fontWeight: '800', fontSize: '4.5rem' }}>Hello! i'm Sibusiso Ndlovu</h1>
+                <h1 style={{ fontWeight: '800', fontSize: '4.5rem' }}>Hello! &#128075;&#127997; <br /> i'm Sibusiso Ndlovu</h1>
                 <p className="text-description">Web and App Developer</p>
 
                 <div className="links d-flex">
