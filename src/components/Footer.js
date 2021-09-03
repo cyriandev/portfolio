@@ -7,7 +7,7 @@ const Footer = () => {
             <Container>
                 <div className="d-flex align-items-center justify-content-between mt-3 py-3">
                     <span style={{ marginRight: 10 }} className="text-description">
-                        &copy; cyriandev, {new Date().getFullYear()} &#128521;
+                        &copy; {new Date().getFullYear()} - cyriandev.
                     </span>
                     <div className="links d-flex align-items-center">
                         <span className="d-flex align-items-center" style={{ marginRight: 15 }}>
