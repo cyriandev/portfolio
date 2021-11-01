@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
     return (
         <div className="intro d-flex align-items-center">
-            <div>
+            <div className="animate__animated animate__slideInUp">
                 <h1 style={{ fontWeight: '800', fontSize: '4.5rem' }}>Hello! &#128075;&#127997; <br /> i'm Sibusiso Ndlovu</h1>
                 <p className="text-description">Web and App Developer</p>
 
@@ -23,7 +23,7 @@ const Hero = () => {
                     <a href="https://www.facebook.com/cyriandev-101270428848469" style={{ marginRight: 15 }}>
                         <ion-icon name="logo-facebook"></ion-icon>
                     </a>
-                    <a href="https://wa.me/+27765921951">
+                    <a href="https://wa.me/+27790946233">
                         <ion-icon name="logo-whatsapp"></ion-icon>
                     </a>
                 </div>

@@ -3,6 +3,7 @@ import { Row, Container, Col } from 'react-bootstrap';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import 'animate.css';
 
 function App() {
   return (
