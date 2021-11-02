@@ -4,9 +4,9 @@ const Projects = () => {
 
     const projects = [
         { title: "Notifyza", description: "Web app built with React, and Laravel with Bootstrap for sending SMSs in bulk and to single contacts.", link: "https://notifyza.co.za" },
-        { title: "Loadshedding App", description: "A mobile application for loadshedding information, includes national loadshedding status, schedules, tweets and watchlist.Built with react native and react context for state management.", link: "https://play.google.com/store/apps/details?id=com.cyriandev.loadshedding" },
-        { title: "Movies and Tv Web App", description: "Minimal, dark themed movies and tv site for finding your next movie to watch on Netflix. Build with react, redux for state management, Bootstrap and TMDB API.", link: "https://moviesntv.cyriandev.co.za" },
-        { title: "Stokoza", description: "An online store aiming to sell local brands and products, still being furbished and adding full features for an ecommerce site.", link: "https://stokoza.co.za" },
+        { title: "Loadshedding App", description: "A mobile application for loadshedding information, includes national loadshedding status, schedules, tweets and watchlist. Built with react native and react context for state management.", link: "https://play.google.com/store/apps/details?id=com.cyriandev.loadshedding" },
+        { title: "Quotes App", description: "Get random inspirational quotes, browse through over 2000 quotes by 900 authors. Data from the quotable api. Built with react native and react context for state management.", link: "https://play.google.com/store/apps/details?id=com.cyriandev.quotes" },
+        { title: "Movies and Tv Web App", description: "Minimal, dark themed movies and tv site for finding your next movie to watch on Netflix. Build with react, redux for state management, Bootstrap and TMDB API.", link: "https://moviesntv.cyriandev.co.za" }
     ]
 
     return (
